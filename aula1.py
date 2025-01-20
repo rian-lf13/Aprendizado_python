@@ -1,0 +1,1 @@
+print('explicito', 'é', 'melhor" do que implícito')
