@@ -1,18 +1,18 @@
 # Informar dados
 
-# nome= input(('Qual o seu nome?'))
-# sobrenome=input(('Qual o seu sobrenome?'))
+nome= input(('Qual o seu nome?'))
+sobrenome=input(('Qual o seu sobrenome?'))
 
 
-# idade = int(input('Informe a sua idade:'))
-# data_nasc= input('Qual sua data de nascimento?')
-# maior_idade= idade >= 18
+idade = int(input('Informe a sua idade:'))
+data_nasc= input('Qual sua data de nascimento?')
+maior_idade= idade >= 18
 
-# altura= float(input('Qual sua altura atual?'))
+altura= float(input('Qual sua altura atual?'))
 
-# print('Me chamo', nome, sobrenome,'tenho', altura, 'nasci no dia', data_nasc, 'tenho', idade, 'anos, ja sou maior de idade?', maior_idade)
+print('Me chamo', nome, sobrenome,'tenho', altura, 'nasci no dia', data_nasc, 'tenho', idade, 'anos, ja sou maior de idade?', maior_idade)
 
-#Calculadora de média e verificação de aprovação
+# Calculadora de média e verificação de aprovação
 
 aluno_nome= str(input('Digite seu nome:'))
 
@@ -35,23 +35,23 @@ elif media_aluno < 5.99:
 
 # Cálculo de desempenho em vendas 
 
-# nome_vendedor= str(input('digite seu nome:'))
+nome_vendedor= str(input('digite seu nome:'))
  
-# mes_venda0= float(input('digite o valor total de vendas desse mês:'))
-# mes_venda1= float(input('digite o valor total de vendas desse mês:'))
-# mes_venda2= float(input('digite o valor total de vendas desse mês:'))
+mes_venda0= float(input('digite o valor total de vendas desse mês:'))
+mes_venda1= float(input('digite o valor total de vendas desse mês:'))
+mes_venda2= float(input('digite o valor total de vendas desse mês:'))
 
-# media_tri_vendas= (mes_venda0 + mes_venda1 + mes_venda2) / 3
+media_tri_vendas= (mes_venda0 + mes_venda1 + mes_venda2) / 3
 
-# if media_tri_vendas > 10.000 :
-#     print(f'Excelente, {nome_vendedor}!!! Você vendeu no mês de Janeiro R${mes_venda0:.3f}, em Fevereiro R${mes_venda1:.3f} e em Março R${mes_venda2:.3f}')
-# elif media_tri_vendas >=7.000 :
-#     print(f'Bom, {nome_vendedor}!!! Você vendeu no mês de Janeiro R${mes_venda0:.3f}, em Fevereiro R${mes_venda1:.3f} e em Março R${mes_venda2:.3f}')
-# elif media_tri_vendas < 7.000 :  
-#     print(f'Infelizmente, {nome_vendedor}, você não bateu sua meta. Você vendeu no mês de Janeiro R${mes_venda0:.3f}, em Fevereiro R${mes_venda1:.3f} e em Março R${mes_venda2:.3f}')
+if media_tri_vendas > 10.000 :
+    print(f'Excelente, {nome_vendedor}!!! Você vendeu no mês de Janeiro R${mes_venda0:.3f}, em Fevereiro R${mes_venda1:.3f} e em Março R${mes_venda2:.3f}')
+elif media_tri_vendas >=7.000 :
+    print(f'Bom, {nome_vendedor}!!! Você vendeu no mês de Janeiro R${mes_venda0:.3f}, em Fevereiro R${mes_venda1:.3f} e em Março R${mes_venda2:.3f}')
+elif media_tri_vendas < 7.000 :  
+    print(f'Infelizmente, {nome_vendedor}, você não bateu sua meta. Você vendeu no mês de Janeiro R${mes_venda0:.3f}, em Fevereiro R${mes_venda1:.3f} e em Março R${mes_venda2:.3f}')
 
 
-# print(f'Sua média nos últimos três meses foi de R${media_tri_vendas:.3f}')
+print(f'Sua média nos últimos três meses foi de R${media_tri_vendas:.3f}')
 
 
 
