@@ -19,10 +19,35 @@ elif idade <100:
 else:
     print('Você é um dinossauro!')
 
-# Operadores lógicos 
+# Operadores lógicos (Operador and)
 
 
 idade = 15 
 
 if idade > 12 and 12 >idade:
     print('sim')
+
+# Operadores lógicos (Operador or)
+
+caderno = 500
+
+if caderno != 500 or caderno > 1000:
+    print("Seu caderno tem mais de 100 folhas")
+elif caderno:
+    print("Seu caderno tem menos folha do que a comparação")
+
+# Operadores lógicos (Operador not)
+
+senha = int(input("informe a senha:"))
+
+if senha != "123456":
+    print("senha incorreta!")
+
+# Operadores lógicos (Operador in e not in)
+
+
+var_1= 'Rian'
+
+print('a' in var_1)
+
+
