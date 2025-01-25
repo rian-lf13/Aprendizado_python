@@ -1,4 +1,1 @@
-idade = 15 
-
-# if idade > 12 and 12 >idade:
-#     print('sim')
+Você precisa de uma carteira de estudante para ter a possibilidade de acesso aos benefícios
