@@ -41,3 +41,57 @@ elif imc <= 25:
     print('Benefícios disponíveis! Você também tem acesso liberado as atividadades especiais')
 else:
     print('Desculpe! Seus dados não atendem aos critérios.')
+
+# Programa de leitura de números impares e pares 
+
+x = int(input('Digite um número:'))
+result = x % 2
+
+if result == 0: 
+    print(f'O número {x} é par')
+else:
+    print(f'O número {x} é impar')
+
+# Programa de leitura (maior e menor)
+
+numero_1 = int(input('Digite um número:'))
+numero_2 = int(input('Digite outro número:'))
+
+if numero_1 < numero_2:
+    print(f'O numero {numero_2} é maior que o número {numero_1}')
+elif numero_2 < numero_1:
+    print(f'O númeoro {numero_1} é maior que o número {numero_2}')
+else:
+    print('Esses números são iguais!')
+
+# Categoria do lutador
+
+lutador_nome= str(input('Digite seu nome: '))
+peso = float(input('Digite seu peso atual: '))
+
+if peso < 52:
+    categoria = 'Inválida'
+elif peso < 65:
+    categoria = 'Pena'
+elif peso  < 72:
+    categoria = 'Leve'
+elif peso  < 79:
+    categoria = 'Ligeiro'
+elif peso < 86:
+    categoria = 'Meio-médio'
+elif peso < 90:
+    categoria = 'Médio'
+elif peso <100:
+    categoria = 'Meio-pesado'
+elif peso < 120:
+    categoria = 'Pesado'
+else:
+    categoria = 'Inválida'
+
+msg= print(f'O lutador {lutador_nome}kg pesa {peso:.1f} e se enquadra na categoria {categoria}.')
+
+
+
+    
+
+ 

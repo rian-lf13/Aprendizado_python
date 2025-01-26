@@ -1,1 +1,0 @@
-Você precisa de uma carteira de estudante para ter a possibilidade de acesso aos benefícios
