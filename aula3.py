@@ -18,3 +18,9 @@ formato=string.format(
 )
 
 print(formato)
+
+
+var_1= 'Rian'
+
+print('a' in var_1)
+

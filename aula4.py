@@ -50,4 +50,11 @@ var_1= 'Rian'
 
 print('a' in var_1)
 
+# Interpolação básica de strings
 
+nome= 'Luiz'
+preco= 1000.958976643
+var = '%s, o preço total é R$%.2f' % (nome, preco)
+
+print(var)
+print('Hexadecimal de %d é %08x' % (15,15))
